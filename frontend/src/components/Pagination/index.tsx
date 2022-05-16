@@ -7,6 +7,9 @@ type Props = {
     onChange: Function;
 }
 
+// Controlar botão habilitado/desabilitado;
+// Trocar página ao clique do botão;
+
 function Pagination({ page, onChange } : Props) {
 
     return (

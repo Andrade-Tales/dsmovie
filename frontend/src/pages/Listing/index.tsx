@@ -36,6 +36,8 @@ function Listing() {
             });
     }, [pageNumber]);
 
+
+    // FUNÇÃO PARA ATUALIZAR O NÚMERO DE PÁGINAS;
     const handlePageChange = (newPageNumber : number) => {
         setPageNumber(newPageNumber);
     }
