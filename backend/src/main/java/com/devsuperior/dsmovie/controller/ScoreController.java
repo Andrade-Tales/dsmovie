@@ -1,5 +1,6 @@
 package com.devsuperior.dsmovie.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +14,7 @@ import com.devsuperior.dsmovie.service.ScoreService;
 @RequestMapping(value = "/scores")
 public class ScoreController {
 
+	@Autowired
 	private ScoreService service;
 
 	@PutMapping

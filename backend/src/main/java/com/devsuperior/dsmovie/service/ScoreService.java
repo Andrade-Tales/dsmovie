@@ -44,8 +44,6 @@ public class ScoreService {
 
 		score = scoreRepository.saveAndFlush(score);
 
-		// Lógica para salvar a média de score!
-
 		double sum = 0.0;
 		for (Score s : movie.getScores()) {
 			sum = sum + s.getValue();
@@ -59,7 +57,5 @@ public class ScoreService {
 		movie = movieRepository.save(movie);
 
 		return new MovieDto(movie);
-
 	}
-
 }
