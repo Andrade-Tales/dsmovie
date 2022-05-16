@@ -25,6 +25,8 @@ function FormCard( { movieId } : Props) {
             });
     }, [movieId]);
 
+    // FUNÇÃO QUE RECEBE UM EVENTO;
+
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
 
         event.preventDefault();
