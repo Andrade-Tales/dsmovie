@@ -14,6 +14,8 @@ function FormCard( { movieId } : Props) {
 
     const navigate = useNavigate();
 
+    // LÓGICA GET FILME POR ID;
+
     const [movie, setMovie] = useState<Movie>();
 
     useEffect(() => {
