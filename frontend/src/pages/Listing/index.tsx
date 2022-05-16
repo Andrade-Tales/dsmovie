@@ -5,6 +5,13 @@ import Pagination from "components/Pagination";
 import { BASE_URL } from "utils/requests";
 import { MoviePage } from "types/movie";
 
+
+//  Hook: useState
+//  Manter estado no componente
+//  Hook: useEffect
+//  Executar algo na instanciação ou destruição do componente, observar estado
+
+
 function Listing() {
 
     const [pageNumber, setPageNumber] = useState(0);
