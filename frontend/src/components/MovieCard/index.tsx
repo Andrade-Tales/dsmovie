@@ -2,6 +2,9 @@ import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
 import { Movie } from "types/movie";
 
+// Props podem ser entendidas como argumentos do componente React.
+// NOTA: em uma renderização dinâmica de coleção, cada elemento renderizado DEVE possuir um atributo key.
+
 type Props = {
     movie: Movie;
 }
